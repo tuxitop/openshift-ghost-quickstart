@@ -14,5 +14,6 @@ ln -sf $OPENSHIFT_DATA_DIR/content/data $OPENSHIFT_REPO_DIR/content/data
 echo "Symlinking images directory"
 rm -rf $OPENSHIFT_REPO_DIR/content/images
 ln -sf $OPENSHIFT_DATA_DIR/content/images $OPENSHIFT_REPO_DIR/content/images
-
-
+echo "Symlinking Latest Casper Theme"
+rm -rf $OPENSHIFT_REPO_DIR/content/themes/casper
+ln -sf $OPENSHIFT_REPO_DIR/node_modules/ghost/content/themes/casper $OPENSHIFT_REPO_DIR/content/themes/casper
