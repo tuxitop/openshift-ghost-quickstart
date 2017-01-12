@@ -2,8 +2,8 @@
     "name": "Ghost",
     "website": "http://tryghost.org/",
     "version": "0.2",
-    "initial_git_url": "https://github.com/dkbhadeshiya/openshift-ghost-quickstart.git",
-    "cartridges": ["nodejs-0.10"],
+    "initial_git_url": "https://github.com/tuxtop/openshift-ghost-quickstart.git",
+    "cartridges": ["https://raw.githubusercontent.com/icflorescu/openshift-cartridge-nodejs/master/metadata/manifest.yml"],
     "tags": [
         "node.js",
         "ghost",
